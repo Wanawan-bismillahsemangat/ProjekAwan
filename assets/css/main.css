@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 
+=======
+/**
+* Template Name: Personal
+* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+* Updated: Mar 05 2025 with Bootstrap v5.3.3
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# Font & Color Variables
+# Help: https://bootstrapmade.com/color-system/
+--------------------------------------------------------------*/
+>>>>>>> 50b7211 (projek 1)
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -6,7 +21,11 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
+<<<<<<< HEAD
 /* Global Colors */
+=======
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+>>>>>>> 50b7211 (projek 1)
 :root { 
   --background-color: #000000; /* Background color for the entire website, including individual sections */
   --default-color: #fafafa; /* Default color used for the majority of the text content across the entire website */
@@ -16,7 +35,11 @@
   --contrast-color: #000000; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
+<<<<<<< HEAD
 /* Nav Menu Colors  */
+=======
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+>>>>>>> 50b7211 (projek 1)
 :root {
   --nav-color: #fafafa;  /* The default color of the main navmenu links */
   --nav-hover-color: #18d26e; /* Applied to main navmenu links when they are hovered over or active */
@@ -26,7 +49,11 @@
   --nav-dropdown-hover-color: #18d26e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
+<<<<<<< HEAD
 /* Color Presets  */
+=======
+/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+>>>>>>> 50b7211 (projek 1)
 
 .light-background {
   --background-color: #1a1a1a;
@@ -46,7 +73,13 @@
   scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 /* General Styling & Shared Classes*/
+=======
+/*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+>>>>>>> 50b7211 (projek 1)
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -74,7 +107,12 @@ h6 {
   font-family: var(--heading-font);
 }
 
+<<<<<<< HEAD
 /* PHP Email Form Messages*/
+=======
+/* PHP Email Form Messages
+------------------------------*/
+>>>>>>> 50b7211 (projek 1)
 .php-email-form .error-message {
   display: none;
   background: #df1529;

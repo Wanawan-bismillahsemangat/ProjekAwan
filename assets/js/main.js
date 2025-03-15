@@ -1,9 +1,25 @@
+<<<<<<< HEAD
 
+=======
+/**
+* Template Name: Personal
+* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+* Updated: Mar 05 2025 with Bootstrap v5.3.3
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+>>>>>>> 50b7211 (projek 1)
 
 (function() {
   "use strict";
 
+<<<<<<< HEAD
   
+=======
+  /**
+   * Apply .scrolled class to the body as the page is scrolled down
+   */
+>>>>>>> 50b7211 (projek 1)
   function toggleScrolled() {
     const selectBody = document.querySelector('body');
     const selectHeader = document.querySelector('#header');
@@ -15,7 +31,11 @@
   window.addEventListener('load', toggleScrolled);
 
   /**
+<<<<<<< HEAD
    * Mobile nav toggle.js
+=======
+   * Mobile nav toggle
+>>>>>>> 50b7211 (projek 1)
    */
   const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
 
@@ -41,7 +61,11 @@
   });
 
   /**
+<<<<<<< HEAD
    * Toggle mobile nav dropdowns.js
+=======
+   * Toggle mobile nav dropdowns
+>>>>>>> 50b7211 (projek 1)
    */
   document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
     navmenu.addEventListener('click', function(e) {
@@ -53,7 +77,11 @@
   });
 
   /**
+<<<<<<< HEAD
    * Preloader.js
+=======
+   * Preloader
+>>>>>>> 50b7211 (projek 1)
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
@@ -63,7 +91,11 @@
   }
 
   /**
+<<<<<<< HEAD
    * Scroll top button.js
+=======
+   * Scroll top button
+>>>>>>> 50b7211 (projek 1)
    */
   let scrollTop = document.querySelector('.scroll-top');
 
@@ -84,7 +116,11 @@
   document.addEventListener('scroll', toggleScrollTop);
 
   /**
+<<<<<<< HEAD
    * Animation on scroll function and init.js
+=======
+   * Animation on scroll function and init
+>>>>>>> 50b7211 (projek 1)
    */
   function aosInit() {
     AOS.init({
