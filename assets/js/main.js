@@ -15,7 +15,7 @@
   window.addEventListener('load', toggleScrolled);
 
   /**
-   * Mobile nav toggle
+   * Mobile nav toggle.js
    */
   const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
 
@@ -41,7 +41,7 @@
   });
 
   /**
-   * Toggle mobile nav dropdowns
+   * Toggle mobile nav dropdowns.js
    */
   document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
     navmenu.addEventListener('click', function(e) {
@@ -53,7 +53,7 @@
   });
 
   /**
-   * Preloader
+   * Preloader.js
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
@@ -63,7 +63,7 @@
   }
 
   /**
-   * Scroll top button
+   * Scroll top button.js
    */
   let scrollTop = document.querySelector('.scroll-top');
 
@@ -84,7 +84,7 @@
   document.addEventListener('scroll', toggleScrollTop);
 
   /**
-   * Animation on scroll function and init
+   * Animation on scroll function and init.js
    */
   function aosInit() {
     AOS.init({
