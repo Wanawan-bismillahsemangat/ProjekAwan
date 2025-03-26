@@ -46,9 +46,7 @@
   scroll-behavior: smooth;
 }
 
-/*--------------------------------------------------------------
-# General Styling & Shared Classes
---------------------------------------------------------------*/
+/* General Styling & Shared Classes*/
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -76,8 +74,7 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* PHP Email Form Messages
-------------------------------*/
+/* PHP Email Form Messages*/
 .php-email-form .error-message {
   display: none;
   background: #df1529;
